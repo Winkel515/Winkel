@@ -66,7 +66,7 @@ function Header() {
               </li>
               <li className={`text-white inline-block mr-6 md:mr-0`}>
                 <div className="inline-block w-2"></div>
-                <Link href="/resume" target="_blank">
+                <Link href="/files/resume.pdf" target="_blank">
                   Resume
                 </Link>
               </li>
