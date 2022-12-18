@@ -9,7 +9,7 @@ export default function Experience() {
   return (
     <div>
       <Header />
-      <div className="flex mt-10 mx-0 sm:mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
+      <div className="flex mt-10 mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
         <div className="flex flex-col items-center mx-20">
           <Image
             src="/myFace.png"
