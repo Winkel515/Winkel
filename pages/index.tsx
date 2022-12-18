@@ -24,6 +24,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Winkel Yin</title>
+        <link rel="shortcut icon" href="/feelsbadman.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header />
