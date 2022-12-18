@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import Header from '../components/Header';
-
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import Head from 'next/head';
+import Info from '../components/Info';
 
 export default function Experience() {
   return (
@@ -16,32 +16,10 @@ export default function Experience() {
       </Head>
       <Header />
       <div className="flex mt-10 mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
-        <div className="flex flex-col items-center mx-20">
-          <Image
-            src="/myFace.png"
-            width={200}
-            height={266}
-            alt="my face"
-            className="rounded-full"
-          />
-          <h1 className="text-3xl font-bold">Winkel Yin</h1>
-          <h2>Software Engineer</h2>
-          <h2>University of Concordia</h2>
-          <div className="flex">
-            <Link
-              target="_blank"
-              href="https://www.linkedin.com/in/winkel-yin/"
-            >
-              <LinkedInIcon />
-            </Link>
-            <Link target="_blank" href="https://github.com/Winkel515">
-              <GitHubIcon />
-            </Link>
-          </div>
-        </div>
+        <Info />
 
         <div className="flex-1 mr-0 lg:mr-20">
-          <h2 className="text-3xl font-bold">Biography</h2>
+          <h2 className="text-3xl font-bold">Experience</h2>
           <br />
           <p>
             I studied at Concordia University Montreal in Computer Science. I

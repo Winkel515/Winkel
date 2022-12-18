@@ -10,7 +10,7 @@ function Resume() {
         <link rel="shortcut icon" href="/feelsbadman.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <embed src="/files/resume.pdf" className="w-screen h-screen" />
+      <embed src="/files/resume.pdf" className="w-screen min-h-screen" />
     </div>
   );
 }
