@@ -4,10 +4,15 @@ import Header from '../components/Header';
 
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import Head from 'next/head';
 
 export default function Experience() {
   return (
     <div>
+      <Head>
+        <title>Winkel Yin</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header />
       <div className="flex mt-10 mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
         <div className="flex flex-col items-center mx-20">
