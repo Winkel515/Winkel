@@ -20,7 +20,7 @@ const typedString = `<span class="${typeWriterClass} font-mono">
 
 export default function Home() {
   return (
-    <div>
+    <div className="bg-white min-h-screen dark:bg-dark dark:text-white">
       <Head>
         <title>Winkel Yin</title>
         <link rel="shortcut icon" href="/feelsbadman.png" />

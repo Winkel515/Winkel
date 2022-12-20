@@ -8,7 +8,7 @@ import Info from '../components/Info';
 
 export default function Experience() {
   return (
-    <div>
+    <div className="dark:bg-dark min-h-screen dark:text-white" >
       <Head>
         <title>Winkel Yin</title>
         <link rel="shortcut icon" href="/feelsbadman.png" />
@@ -27,19 +27,19 @@ export default function Experience() {
             degree. As a dropout, it is harder to find a job, so I feel the
             importance of showing off my grades. My GPA was 4.1/4.3 out of 50
             credits please hire me. During my studies, I interned at{' '}
-            <Link href="https://oa.media/" target="_blank">
+            <Link href="https://oa.media/" target="_blank" className='underline'>
               OrangeAd
             </Link>
             ,{' '}
-            <Link href="https://www.sap.com/canada/index.html" target="_blank">
+            <Link href="https://www.sap.com/canada/index.html" target="_blank" className='underline'>
               SAP
             </Link>{' '}
             and{' '}
-            <Link href="https://www.autodesk.ca/en" target="_blank">
+            <Link href="https://www.autodesk.ca/en" target="_blank" className='underline'>
               Autodesk
             </Link>{' '}
             as a Software Developer. I am currently at{' '}
-            <Link href="https://videri.com/" target="_blank">
+            <Link href="https://videri.com/" target="_blank" className='underline'>
               Videri
             </Link>{' '}
             as a Backend Developer.
