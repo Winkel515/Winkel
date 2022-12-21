@@ -1,11 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import Header from '../components/Header';
+import NavBar from '../components/NavBar';
 import Typewriter from 'typewriter-effect';
 import Head from 'next/head';
 import Info from '../components/Info';
 
-const typeWriterClass = 'text-2xl md:text-3xl lg:text-4xl';
+const typeWriterClass = 'text-lg md:text-xl lg:text-2xl';
 
 const typedString = `<span class="${typeWriterClass} font-mono">
 <span class="text-blue-600">const</span> Winkel = {<br/>
@@ -20,14 +20,14 @@ const typedString = `<span class="${typeWriterClass} font-mono">
 //hello, this is gator
 export default function Home() {
   return (
-    <div className="bg-white min-h-screen dark:bg-dark dark:text-white">
+    <div className="bg-white min-h-screen dark:bg-dark dark:text-white flex flex-col">
       <Head>
         <title>Winkel Yin</title>
         <link rel="shortcut icon" href="/feelsbadman.png" />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-      <Header />
-      <div className="flex mt-10 mx-0 sm:mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
+      <NavBar />
+      <div className="flex mt-10 mx-0 sm:mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row justify-center justify-items-center">
         <Info />
 
         <Typewriter

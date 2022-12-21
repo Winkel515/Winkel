@@ -14,7 +14,7 @@ export default function Info() {
         alt="my face"
         className="rounded-full"
       />
-      <h1 className="text-3xl font-bold">Winkel Yin</h1>
+      <h1 className="text-5xl font-bold my-3">Winkel Yin</h1>
       <h2>Software Engineer</h2>
       <h2>Concordia University</h2>
       <div className="flex">

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState } from 'react';
 
-function Header() {
+function NavBar() {
   const [navbar, setNavbar] = useState(false);
 
   return (
@@ -88,4 +88,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default NavBar;
