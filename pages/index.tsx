@@ -17,7 +17,7 @@ const typedString = `<span class="${typeWriterClass} font-mono">
   &emsp;github: <span class="text-orange-700">'<a href="https://github.com/Winkel515" target="_blank" class="underline">or even here!</a>'</span>,<br/>
   &emsp;leetcode: <span class="text-orange-700">'<a href="https://leetcode.com/Winkel515/" target="_blank" class="underline">maybe here!?</a>'</span>,<br/>
 };</span>`;
-//hello, this is gator
+
 export default function Home() {
   return (
     <div className="bg-white min-h-screen dark:bg-dark dark:text-white flex flex-col">
