@@ -27,7 +27,7 @@ export default function Home() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <NavBar />
-      <div className="flex mt-10 mx-0 sm:mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row justify-center justify-items-center">
+      <div className="flex mt-10 mx-0 sm:mx-5 lg:mx-0 flex-col md:flex-col lg:flex-row">
         <Info />
 
         <Typewriter

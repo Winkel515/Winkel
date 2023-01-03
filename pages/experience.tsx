@@ -49,11 +49,19 @@ export default function Experience() {
         </div>
 
       </div>
-      <div className="flex justify-evenly">    
+      <div className="flex justify-evenly mt-10">    
       {/* HELP: how to scale down image: where to write it + how to switch line (want to put logo alone on top, and then txt + how to lower (center) experience paragraph*/}
-        <CompanyCard src="https://oa.media/wp-content/uploads/2022/10/cropped-oa-icon.png" title="OrangeAd" description="OrangeAd is a digital signage company. Their main product is a display for advertisers with some proprietary features. As the company was fairly new, I was tasked with developing the editor for advertisers to customize the layout of their ad. Afterwards I was responsible for creating the ad display page which would be the app running on the tablets displaying the advert. After that was done, I was mainly working on fixing bugs at which point I got very bored of the internship."/>
-        <CompanyCard src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png" title="SAP" description="I was mainly working on writing Front-End tests for their Marketing Cloud platform. Not much to say about this internship except that I was very bored and depressed."/>
-        <CompanyCard src="https://brand.autodesk.com/app/uploads/2021/04/alternate-logo-1.svg" title="Autodesk" description="I was given various tasks. My first tasks was to create a mock server for one of their GraphQL service as a workaround authentication complications. Afterwards, I worked on writing functions to serialize a complex data structure to a JSON format. I was happy to see a use case of Polymorphism in a real world scenario. Because the data structure was composed of different data types in a tree, Polymorphism was used to automatically determine which function to call to convert them into the correct string. Once that was completed, I worked on a script to automate documentation by converting a GraphQL schema into an RST file. Lastly, I worked on a front-end to display a graph data structure. This was accomplished using d3-graphviz to render the graph."/>
+        <CompanyCard title="OrangeAd" description="OrangeAd is a digital signage company. Their main product is a display for advertisers with some proprietary features. As the company was fairly new, I was tasked with developing the editor for advertisers to customize the layout of their ad. Afterwards I was responsible for creating the ad display page which would be the app running on the tablets displaying the advert. After that was done, I was mainly working on fixing bugs at which point I got very bored of the internship.">
+        <img className="h-24" src="https://oa.media/wp-content/uploads/2022/10/cropped-oa-icon.png"/> 
+        </CompanyCard>
+        
+        <CompanyCard title="SAP" description="I was mainly working on writing Front-End tests for their Marketing Cloud platform. Not much to say about this internship except that I was very bored and depressed.">
+        <img className="h-14" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/SAP_2011_logo.svg/2560px-SAP_2011_logo.svg.png"/> 
+        </CompanyCard>
+        
+        <CompanyCard title="Autodesk" description="I was given various tasks. My first tasks was to create a mock server for one of their GraphQL service as a workaround authentication complications. Afterwards, I worked on writing functions to serialize a complex data structure to a JSON format. I was happy to see a use case of Polymorphism in a real world scenario. Because the data structure was composed of different data types in a tree, Polymorphism was used to automatically determine which function to call to convert them into the correct string. Once that was completed, I worked on a script to automate documentation by converting a GraphQL schema into an RST file. Lastly, I worked on a front-end to display a graph data structure. This was accomplished using d3-graphviz to render the graph.">
+        <img className="h-32 w-32 object-cover" src="https://brand.autodesk.com/app/uploads/2021/04/alternate-logo-1.svg"/>
+        </CompanyCard>      
       </div>
     </div>
   );
