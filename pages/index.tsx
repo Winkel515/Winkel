@@ -9,18 +9,19 @@ const typeWriterClass = 'text-2xl md:text-3xl lg:text-4xl';
 
 const typedString = `<span class="${typeWriterClass} font-mono">
 <span class="text-blue-600">const</span> Winkel = {<br/>
-  &emsp;name: <span class="text-orange-700">'Winkel Yin'</span>,<br/>
-  &emsp;role: <span class="text-orange-700">'Software Engineer'</span>,<br/>
-  &emsp;location: <span class="text-orange-700">'Montreal'</span>,<br/>
-  &emsp;resume: <span class="text-orange-700">'<a href="/files/resume.pdf" target="_blank" class="underline">click here!</a>'</span>,<br/>
-  &emsp;linkedin: <span class="text-orange-700">'<a href="https://www.linkedin.com/in/winkel-yin/" target="_blank" class="underline">or here!</a>'</span>,<br/>
-  &emsp;github: <span class="text-orange-700">'<a href="https://github.com/Winkel515" target="_blank" class="underline">or even here!</a>'</span>,<br/>
-  &emsp;leetcode: <span class="text-orange-700">'<a href="https://leetcode.com/Winkel515/" target="_blank" class="underline">maybe here!?</a>'</span>,<br/>
+  &emsp;Name: <span class="text-orange-700">'Winkel Yin'</span>,<br/>
+  &emsp;Role: <span class="text-orange-700">'Software Engineer'</span>,<br/>
+  &emsp;Location: <span class="text-orange-700">'Montreal'</span>,<br/>
+  &emsp;Resume: <span class="text-orange-700">'<a href="/files/resume.pdf" target="_blank" class="underline">click here!</a>'</span>,<br/>
+  &emsp;LinkedIn: <span class="text-orange-700">'<a href="https://www.linkedin.com/in/winkel-yin/" target="_blank" class="underline">or here!</a>'</span>,<br/>
+  &emsp;GitHub: <span class="text-orange-700">'<a href="https://github.com/Winkel515" target="_blank" class="underline">or even here!</a>'</span>,<br/>
+  &emsp;LeetCode: <span class="text-orange-700">'<a href="https://leetcode.com/Winkel515/" target="_blank" class="underline">maybe here!?</a>'</span>,<br/>
+  &emsp;YouTube: <span class="text-orange-700">'<a href="https://www.youtube.com/@winky1522" target="_blank" class="underline">definitely here!</a>'</span>,<br/>
 };</span>`;
 //hello, this is gator
 export default function Home() {
   return (
-    <div className="bg-white min-h-screen dark:bg-dark dark:text-white">
+    <div className="min-h-screen bg-dark text-white">
       <Head>
         <title>Winkel Yin</title>
         <link rel="shortcut icon" href="/feelsbadman.png" />
