@@ -6,12 +6,12 @@ function Header() {
   const [navbar, setNavbar] = useState(false);
 
   return (
-    <nav className="bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900">
+    <nav className="bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <Link href="/" className="flex items-center">
           <Image src="/feelsbadman.png" alt="Logo" width={50} height={50} />
           <div className="w-5"></div>
-          <span className="text-white self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="text-white self-center text-xl font-semibold whitespace-nowrap">
             Winkel Yin
           </span>
         </Link>
@@ -78,6 +78,12 @@ function Header() {
                 <div className="inline-block w-2"></div>
                 <Link href="https://leetcode.com/Winkel515/" target="_blank">
                   Leetcode
+                </Link>
+              </li>
+              <li className={`text-white inline-block mr-6 md:mr-0`}>
+                <div className="inline-block w-2"></div>
+                <Link href="https://www.youtube.com/@winky1522" target="_blank">
+                  YouTube
                 </Link>
               </li>
             </ul>
