@@ -16,7 +16,7 @@ const typedString = `<span class="${typeWriterClass} font-mono">
   &emsp;LinkedIn: <span class="text-orange-700">'<a href="https://www.linkedin.com/in/winkel-yin/" target="_blank" class="underline">or here!</a>'</span>,<br/>
   &emsp;GitHub: <span class="text-orange-700">'<a href="https://github.com/Winkel515" target="_blank" class="underline">or even here!</a>'</span>,<br/>
   &emsp;LeetCode: <span class="text-orange-700">'<a href="https://leetcode.com/Winkel515/" target="_blank" class="underline">maybe here!?</a>'</span>,<br/>
-  &emsp;YouTube: <span class="text-orange-700">'<a href="https://www.youtube.com/@winky1522" target="_blank" class="underline">definitely here!</a>'</span>,<br/>
+  &emsp;YouTube: <span class="text-orange-700">'<a href="https://www.youtube.com/@winkypoop" target="_blank" class="underline">definitely here!</a>'</span>,<br/>
 };</span>`;
 //hello, this is gator
 export default function Home() {

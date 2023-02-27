@@ -82,7 +82,7 @@ function Header() {
               </li>
               <li className={`text-white inline-block mr-6 md:mr-0`}>
                 <div className="inline-block w-2"></div>
-                <Link href="https://www.youtube.com/@winky1522" target="_blank">
+                <Link href="https://www.youtube.com/@winkypoop" target="_blank">
                   YouTube
                 </Link>
               </li>
